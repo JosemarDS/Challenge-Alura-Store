@@ -1,70 +1,49 @@
-Challenge Alura Store
-Descrição
+# 🛍️ Challenge Alura Store
 
-Este projeto foi desenvolvido como parte de um challenge da Alura com foco em ciência de dados / análise de vendas de e-commerce. O propósito é explorar dados de uma loja fictícia, aplicar técnicas estatísticas, gerar insights e construir visualizações que suportem decisões estratégicas de negócio.
+Projeto desenvolvido como parte de um desafio da **Alura**, com foco em **Ciência de Dados** aplicada ao contexto de vendas de e-commerce. O objetivo é explorar dados de uma loja fictícia, aplicar técnicas analíticas e gerar insights que apoiem decisões estratégicas de negócio.
 
-Estrutura do Projeto
+## 📂 Estrutura do Projeto
 
-challenge_alura_store.py — script principal em Python para limpeza, transformação, análise exploratória e geração de métricas.
+- `challenge_alura_store.py`: Script principal com etapas de limpeza, transformação e análise dos dados.
+- `Challenge_Alura_Store.ipynb`: Notebook Jupyter com o pipeline completo, visualizações e explicações.
+- `data/`: Pasta sugerida para armazenar os dados de entrada.
+- `outputs/`: Pasta sugerida para salvar gráficos e relatórios gerados.
 
-Challenge_Alura_Store.ipynb — notebook Jupyter com fluxo completo do pipeline analítico, visualizações e explicações.
+## 🧪 Tecnologias Utilizadas
 
-Dados de entrada (se houver) devem ser colocados em pasta especificada (e.g. data/), e os resultados de saída (gráficos, relatórios) em outputs/ ou similar.
+- Python 3.x
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
 
-Tecnologias Utilizadas
+## 🚀 Como Executar
 
-Python 3.x — linguagem principal.
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/JosemarDS/Challenge-Alura-Store.git
+   cd Challenge-Alura-Store
 
-Bibliotecas comuns para análise de dados: pandas, numpy, matplotlib, seaborn, entre outras.
+📊 Funcionalidades
+Leitura e pré-processamento dos dados
 
-Ambiente Jupyter para exploração visual interativa.
+- Análise exploratória com gráficos e estatísticas
 
-Como Executar
+- Cálculo de métricas-chave (receita, ticket médio, produtos mais vendidos)
 
-Clone este repositório:
+- Geração de visualizações para suporte à tomada de decisão
 
-git clone https://github.com/JosemarDS/Challenge-Alura-Store.git
-cd Challenge-Alura-Store
+- Relatórios com recomendações estratégicas
 
+🤝 Contribuições
+Contribuições são bem-vindas! Para colaborar:
 
-(Opcional) Crie e ative um ambiente virtual Python (venv, conda etc.).
+1. Faça um fork do repositório
 
-Instale as dependências:
+2. Crie uma branch: feature/nova-funcionalidade ou fix/correção
 
-pip install -r requirements.txt
+3. Faça suas alterações e envie um pull request com descrição clara
 
-
-Observação: se não houver arquivo requirements.txt, crie um com as bibliotecas usadas no notebook/script.
-
-Execute o notebook:
-
-jupyter notebook Challenge_Alura_Store.ipynb
-
-
-ou execute diretamente o script Python:
-
-python challenge_alura_store.py
-
-Funcionalidades / Etapas Principais
-
-Leitura e pré-processamento dos dados brutos (tratamento de valores faltantes, formatação de tipos, normalização).
-
-Análise exploratória para identificar padrões e correlações.
-
-Cálculo de métricas chave (e.g. receita total, ticket médio, produtos mais vendidos).
-
-Visualizações gráficas para suportar insights (gráficos de barras, dispersão, séries temporais etc.).
-
-Relatórios sumarizados com recomendações baseadas nos dados.
-
-Contribuições
-
-Contribuições são bem-vindas. Se desejar colaborar:
-
-Faça um fork do repositório.
-
-Crie uma branch com o nome da funcionalidade ou correção: feature/nome-da-funcionalidade ou fix/issue.
-
-Realize suas alterações e adicione testes ou exemplos, se aplicável.
-
-Envie um pull request com descrição clara das modificações e motivação.
+👨‍💻 Autor
+Desenvolvido por @JosemarDS
